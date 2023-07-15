@@ -29,9 +29,9 @@ class LandingPage extends Component {
     const { page } = this.props;
 
     if (!page.hasOwnProperty("landingPage")) {
-      setTimeout(() => {
-        alert("Sorry, the server is down~");
-      }, 15000);
+      // setTimeout(() => {
+      //   alert("Sorry, the server is down~");
+      // }, 15000);
       return <SkeletonLoadingLandingPage />;
     }
 
